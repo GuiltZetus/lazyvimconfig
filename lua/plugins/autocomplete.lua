@@ -1,5 +1,5 @@
 return {
-  { 
+  {
     "hrsh7th/nvim-cmp",
     version = false, -- last release is way too old
     event = "InsertEnter",
@@ -43,10 +43,10 @@ return {
           { name = "nvim_lsp" },
           { name = "luasnip" },
           { name = "path" },
-          {name = "html-css"},
+          { name = "html-css" },
         }, {
-            { name = "buffer" },
-          }),
+          { name = "buffer" },
+        }),
         formatting = {
           format = function(_, item)
             local icons = require("lazyvim.config").icons.kinds
